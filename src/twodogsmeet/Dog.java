@@ -47,7 +47,7 @@ public class Dog {
      * pre:needs an aggression value
      * post:sets the aggression value
      */
-    public int ageAggression(){
+    public int getAggression(){
         return aggression;
     }
     
@@ -122,5 +122,4 @@ public class Dog {
         //output string is complete, return it
         return output;
 }
-    
 }
